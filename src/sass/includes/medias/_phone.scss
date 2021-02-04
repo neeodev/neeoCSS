@@ -1,0 +1,11 @@
+@media screen and (min-width: $--mobile-portrait) and (max-width:$--tablet-portrait){
+  :root{
+    --container-width: 630px;
+    --grid-column-1:calc(100% / (6 / 6) - var(--gap));
+    --grid-column-2:calc(100% / (6 / 6) - var(--gap));
+    --grid-column-3:calc(100% / (6 / 6) - var(--gap));
+    --grid-column-4:calc(100% / (6 / 6) - var(--gap));
+    --grid-column-5:calc(100% / (6 / 6) - var(--gap));
+    --grid-column-6:calc(100% / (6 / 6) - var(--gap));
+  }
+}

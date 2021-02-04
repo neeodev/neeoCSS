@@ -1,0 +1,36 @@
+.container {
+  margin: auto;
+  width: var(--container-width);
+  padding:var(--gap) 0;
+
+  .grid {
+    width: 100%;
+    display: inline-flex;
+    margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
+    width: calc(100% + var(--gap));
+    flex-wrap: wrap;
+
+    .col {
+      margin: var(--gap) 0 0 var(--gap);
+
+      &.col-1 {
+        flex:1 var(--grid-column-1);
+      }
+      &.col-2 {
+        flex:1 var(--grid-column-2);
+      }
+      &.col-3 {
+        flex:1 var(--grid-column-3);
+      }
+      &.col-4 {
+        flex:1 var(--grid-column-4);
+      }
+      &.col-5 {
+        flex:1 var(--grid-column-5);
+      }
+      &.col-6 {
+        flex:1 var(--grid-column-6);
+      }
+    }
+  }
+}

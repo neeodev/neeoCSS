@@ -1,0 +1,22 @@
+// Includes
+@import './includes/reset';
+@import './includes/variables';
+@import './includes/mixins';
+
+// Medias
+@import './includes/medias/desktop';
+@import './includes/medias/tablet-landscape';
+@import './includes/medias/tablet';
+@import './includes/medias/phone';
+@import './includes/medias/smallphone';
+
+// Components
+@import './components/grid';
+@import './components/card';
+@import './components/nav';
+
+
+body{
+  width: 100%;
+  background-color: var(--background);
+}

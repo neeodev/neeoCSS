@@ -1,0 +1,24 @@
+.card{
+  @include box-shadow(2);
+  border-radius: 3px;
+  border:1px solid var(--border);
+  background:var(--card-bg, var(--background-light));
+  transition:.3s, transform .3s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  & > .card-body{
+    padding: var(--card-padding);
+  }
+
+  & > .card-footer{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    min-height: 36px;
+    background: var(--card-bg-footer,var(--card-footer));
+    padding: 0 var(--card-padding);
+    font-size: .9rem;
+  }
+}

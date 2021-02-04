@@ -1,0 +1,11 @@
+@media screen and (min-width: $--desktop){
+  :root{
+    --container-width:80%;
+    --grid-column-1:calc(100% / (6 / 1) - var(--gap));
+    --grid-column-2:calc(100% / (6 / 2) - var(--gap));
+    --grid-column-3:calc(100% / (6 / 3) - var(--gap));
+    --grid-column-4:calc(100% / (6 / 4) - var(--gap));
+    --grid-column-5:calc(100% / (6 / 5) - var(--gap));
+    --grid-column-6:calc(100% / (6 / 6) - var(--gap));
+  }
+}
